@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CWI-PC">
+	<listeners>
+        <listener class-name="com.miao.listener.TestCaseListener"/>
+    </listeners>
+	<test verbose="2" preserve-order="true" name="default">
+		<classes>
+			<class name="com.miao.testcases.MemberShipTest">
+			    <methods>
+                    <include name="login"/>
+                    <include name="enteringBlood"/>
+                </methods>
+			</class>
+			<class name="com.miao.testcases.MemberRiskTest">
+			    <methods>
+                    <include name="enterRisk"/>
+                    <include name="login"/>
+                </methods>
+			</class>
+			<class name="com.miao.testcases.MemberFitnessTest">
+			    <methods>
+                    <include name="fitnessEnter"/>
+                    <include name="login"/>
+                </methods>
+			</class>
+			<class name="com.miao.testcases.MemberFramminghamTest">
+			    <methods>
+                    <include name="framminghamEnter"/>
+                    <include name="login"/>
+                </methods>
+			</class>
+			<class name="com.miao.testcases.MemberSleepAssessmentTest">
+			    <methods>
+                    <include name="sleepAssessment"/>
+                    <include name="login"/>
+                </methods>
+			</class>
+			<class name="com.miao.testcases.MemberNutrilonalAssessmentTest">
+			    <methods>
+                    <include name="nutrilonEnter"/>
+                    <include name="login"/>
+                </methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

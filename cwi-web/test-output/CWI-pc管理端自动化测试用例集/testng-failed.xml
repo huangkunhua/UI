@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CWI-pc管理端自动化测试用例集]">
+  <test name="default(failed)">
+    <classes>
+      <class name="com.miao.testcases.MemberShipTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberShipTest -->
+      <class name="com.miao.testcases.MemberFramminghamTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberFramminghamTest -->
+      <class name="com.miao.testcases.MemberFitnessTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberFitnessTest -->
+      <class name="com.miao.testcases.MemberNutrilonalAssessmentTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberNutrilonalAssessmentTest -->
+      <class name="com.miao.testcases.MemberSleepAssessmentTest">
+        <methods>
+          <include name="login"/>
+          <include name="teraDownClass"/>
+          <include name="sleepAssessment"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberSleepAssessmentTest -->
+      <class name="com.miao.testcases.MemberRiskTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberRiskTest -->
+    </classes>
+  </test> <!-- default(failed) -->
+</suite> <!-- Failed suite [CWI-pc管理端自动化测试用例集] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test201801203]">
+  <test name="default(failed)">
+    <classes>
+      <class name="com.miao.testcases.MemberShipTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberShipTest -->
+      <class name="com.miao.testcases.MemberRiskTest">
+        <methods>
+          <include name="teraDownClass"/>
+          <include name="setUpClass"/>
+          <include name="enterRisk"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.miao.testcases.MemberRiskTest -->
+    </classes>
+  </test> <!-- default(failed) -->
+</suite> <!-- Failed suite [Test201801203] -->
